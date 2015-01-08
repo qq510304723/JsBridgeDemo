@@ -23,12 +23,12 @@
 
             //按钮事件
             function onBkJsBridgeReady() {
-            		//注册事件
-		            BkJsBridge.on('titleClick', function(data, responseCallback){
-									alert(data.data + ": 222")
-                                    var responseData = { 'Javascript Says':'Right back atcha!' }
-                                    responseCallback(responseData)
-								});
+                //注册事件
+                BkJsBridge.on('titleClick', function(data, responseCallback){
+                                alert(data.data + ": 222")
+                                var responseData = { 'Javascript Says':'Right back atcha!' }
+                                responseCallback(responseData)
+                            });
             	
                 document.getElementById('myBtn').onclick = callNativeConfirm;
             };
