@@ -21,6 +21,7 @@
 
 @implementation BKViewController
 
+//加载本地html
 - (void)loadExamplePage:(UIWebView *)webView
 {
     NSString* htmlPath = [[NSBundle mainBundle] pathForResource:@"ExampleApp" ofType:@"html"];
