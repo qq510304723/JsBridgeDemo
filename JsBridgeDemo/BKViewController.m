@@ -32,6 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	
     _bridge = [[BkJsBridge alloc] initBridgeForWebView:self.webView];
     
