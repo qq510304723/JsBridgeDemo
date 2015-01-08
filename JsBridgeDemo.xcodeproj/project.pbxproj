@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8669B9D1A00CC1C00180992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8669B9C1A00CC1C00180992 /* Foundation.framework */; };
+		D8669B9F1A00CC1C00180992 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8669B9E1A00CC1C00180992 /* CoreGraphics.framework */; };
+		D8669BA11A00CC1C00180992 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8669BA01A00CC1C00180992 /* UIKit.framework */; };
+		D8669BA71A00CC1C00180992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8669BA51A00CC1C00180992 /* InfoPlist.strings */; };
+		D8669BA91A00CC1C00180992 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8669BA81A00CC1C00180992 /* main.m */; };
+		D8669BAD1A00CC1C00180992 /* BKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8669BAC1A00CC1C00180992 /* BKAppDelegate.m */; };
+		D8669BB01A00CC1C00180992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8669BAE1A00CC1C00180992 /* Main.storyboard */; };
+		D8669BB31A00CC1C00180992 /* BKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8669BB21A00CC1C00180992 /* BKViewController.m */; };
+		D8669BB51A00CC1C00180992 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8669BB41A00CC1C00180992 /* Images.xcassets */; };
+		D8669BBC1A00CC1D00180992 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8669BBB1A00CC1D00180992 /* XCTest.framework */; };
+		D8669BBD1A00CC1D00180992 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8669B9C1A00CC1C00180992 /* Foundation.framework */; };
+		D8669BBE1A00CC1D00180992 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8669BA01A00CC1C00180992 /* UIKit.framework */; };
+		D8669BC61A00CC1D00180992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8669BC41A00CC1D00180992 /* InfoPlist.strings */; };
+		D8669BC81A00CC1D00180992 /* JsBridgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8669BC71A00CC1D00180992 /* JsBridgeDemoTests.m */; };
+		D8669BD61A00CC3000180992 /* BkJsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = D8669BD41A00CC3000180992 /* BkJsBridge.m */; };
+		D8669BD81A00CC4000180992 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = D8669BD71A00CC4000180992 /* ExampleApp.html */; };
+		D8669BD91A00CF8400180992 /* BkJsBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = D8669BD31A00CC3000180992 /* BkJsBridge.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8669BBF1A00CC1D00180992 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8669B911A00CC1C00180992 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8669B981A00CC1C00180992;
+			remoteInfo = JsBridgeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8669B991A00CC1C00180992 /* JsBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8669B9C1A00CC1C00180992 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8669B9E1A00CC1C00180992 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8669BA01A00CC1C00180992 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8669BA41A00CC1C00180992 /* JsBridgeDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JsBridgeDemo-Info.plist"; sourceTree = "<group>"; };
+		D8669BA61A00CC1C00180992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8669BA81A00CC1C00180992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8669BAA1A00CC1C00180992 /* JsBridgeDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JsBridgeDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D8669BAB1A00CC1C00180992 /* BKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKAppDelegate.h; sourceTree = "<group>"; };
+		D8669BAC1A00CC1C00180992 /* BKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKAppDelegate.m; sourceTree = "<group>"; };
+		D8669BAF1A00CC1C00180992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8669BB11A00CC1C00180992 /* BKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BKViewController.h; sourceTree = "<group>"; };
+		D8669BB21A00CC1C00180992 /* BKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKViewController.m; sourceTree = "<group>"; };
+		D8669BB41A00CC1C00180992 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8669BBA1A00CC1D00180992 /* JsBridgeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsBridgeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8669BBB1A00CC1D00180992 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D8669BC31A00CC1D00180992 /* JsBridgeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JsBridgeDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D8669BC51A00CC1D00180992 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8669BC71A00CC1D00180992 /* JsBridgeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsBridgeDemoTests.m; sourceTree = "<group>"; };
+		D8669BD21A00CC3000180992 /* BkJsBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BkJsBridge.h; sourceTree = "<group>"; };
+		D8669BD31A00CC3000180992 /* BkJsBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = BkJsBridge.js; sourceTree = "<group>"; };
+		D8669BD41A00CC3000180992 /* BkJsBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BkJsBridge.m; sourceTree = "<group>"; };
+		D8669BD71A00CC4000180992 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8669B961A00CC1C00180992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8669B9F1A00CC1C00180992 /* CoreGraphics.framework in Frameworks */,
+				D8669BA11A00CC1C00180992 /* UIKit.framework in Frameworks */,
+				D8669B9D1A00CC1C00180992 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8669BB71A00CC1D00180992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8669BBC1A00CC1D00180992 /* XCTest.framework in Frameworks */,
+				D8669BBE1A00CC1D00180992 /* UIKit.framework in Frameworks */,
+				D8669BBD1A00CC1D00180992 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8669B901A00CC1C00180992 = {
+			isa = PBXGroup;
+			children = (
+				D8669BA21A00CC1C00180992 /* JsBridgeDemo */,
+				D8669BC11A00CC1D00180992 /* JsBridgeDemoTests */,
+				D8669B9B1A00CC1C00180992 /* Frameworks */,
+				D8669B9A1A00CC1C00180992 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8669B9A1A00CC1C00180992 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8669B991A00CC1C00180992 /* JsBridgeDemo.app */,
+				D8669BBA1A00CC1D00180992 /* JsBridgeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8669B9B1A00CC1C00180992 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8669B9C1A00CC1C00180992 /* Foundation.framework */,
+				D8669B9E1A00CC1C00180992 /* CoreGraphics.framework */,
+				D8669BA01A00CC1C00180992 /* UIKit.framework */,
+				D8669BBB1A00CC1D00180992 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8669BA21A00CC1C00180992 /* JsBridgeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D8669BD11A00CC3000180992 /* WebViewJavascriptBridge */,
+				D8669BAB1A00CC1C00180992 /* BKAppDelegate.h */,
+				D8669BAC1A00CC1C00180992 /* BKAppDelegate.m */,
+				D8669BAE1A00CC1C00180992 /* Main.storyboard */,
+				D8669BB11A00CC1C00180992 /* BKViewController.h */,
+				D8669BB21A00CC1C00180992 /* BKViewController.m */,
+				D8669BB41A00CC1C00180992 /* Images.xcassets */,
+				D8669BA31A00CC1C00180992 /* Supporting Files */,
+			);
+			path = JsBridgeDemo;
+			sourceTree = "<group>";
+		};
+		D8669BA31A00CC1C00180992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8669BD71A00CC4000180992 /* ExampleApp.html */,
+				D8669BA41A00CC1C00180992 /* JsBridgeDemo-Info.plist */,
+				D8669BA51A00CC1C00180992 /* InfoPlist.strings */,
+				D8669BA81A00CC1C00180992 /* main.m */,
+				D8669BAA1A00CC1C00180992 /* JsBridgeDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8669BC11A00CC1D00180992 /* JsBridgeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8669BC71A00CC1D00180992 /* JsBridgeDemoTests.m */,
+				D8669BC21A00CC1D00180992 /* Supporting Files */,
+			);
+			path = JsBridgeDemoTests;
+			sourceTree = "<group>";
+		};
+		D8669BC21A00CC1D00180992 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8669BC31A00CC1D00180992 /* JsBridgeDemoTests-Info.plist */,
+				D8669BC41A00CC1D00180992 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8669BD11A00CC3000180992 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				D8669BD21A00CC3000180992 /* BkJsBridge.h */,
+				D8669BD41A00CC3000180992 /* BkJsBridge.m */,
+				D8669BD31A00CC3000180992 /* BkJsBridge.js */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8669B981A00CC1C00180992 /* JsBridgeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8669BCB1A00CC1D00180992 /* Build configuration list for PBXNativeTarget "JsBridgeDemo" */;
+			buildPhases = (
+				D8669B951A00CC1C00180992 /* Sources */,
+				D8669B961A00CC1C00180992 /* Frameworks */,
+				D8669B971A00CC1C00180992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsBridgeDemo;
+			productName = JsBridgeDemo;
+			productReference = D8669B991A00CC1C00180992 /* JsBridgeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8669BB91A00CC1D00180992 /* JsBridgeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8669BCE1A00CC1D00180992 /* Build configuration list for PBXNativeTarget "JsBridgeDemoTests" */;
+			buildPhases = (
+				D8669BB61A00CC1D00180992 /* Sources */,
+				D8669BB71A00CC1D00180992 /* Frameworks */,
+				D8669BB81A00CC1D00180992 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8669BC01A00CC1D00180992 /* PBXTargetDependency */,
+			);
+			name = JsBridgeDemoTests;
+			productName = JsBridgeDemoTests;
+			productReference = D8669BBA1A00CC1D00180992 /* JsBridgeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8669B911A00CC1C00180992 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bitcare;
+				TargetAttributes = {
+					D8669BB91A00CC1D00180992 = {
+						TestTargetID = D8669B981A00CC1C00180992;
+					};
+				};
+			};
+			buildConfigurationList = D8669B941A00CC1C00180992 /* Build configuration list for PBXProject "JsBridgeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8669B901A00CC1C00180992;
+			productRefGroup = D8669B9A1A00CC1C00180992 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8669B981A00CC1C00180992 /* JsBridgeDemo */,
+				D8669BB91A00CC1D00180992 /* JsBridgeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8669B971A00CC1C00180992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8669BD91A00CF8400180992 /* BkJsBridge.js in Resources */,
+				D8669BB51A00CC1C00180992 /* Images.xcassets in Resources */,
+				D8669BA71A00CC1C00180992 /* InfoPlist.strings in Resources */,
+				D8669BB01A00CC1C00180992 /* Main.storyboard in Resources */,
+				D8669BD81A00CC4000180992 /* ExampleApp.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8669BB81A00CC1D00180992 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8669BC61A00CC1D00180992 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8669B951A00CC1C00180992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8669BB31A00CC1C00180992 /* BKViewController.m in Sources */,
+				D8669BA91A00CC1C00180992 /* main.m in Sources */,
+				D8669BD61A00CC3000180992 /* BkJsBridge.m in Sources */,
+				D8669BAD1A00CC1C00180992 /* BKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8669BB61A00CC1D00180992 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8669BC81A00CC1D00180992 /* JsBridgeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8669BC01A00CC1D00180992 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8669B981A00CC1C00180992 /* JsBridgeDemo */;
+			targetProxy = D8669BBF1A00CC1D00180992 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8669BA51A00CC1C00180992 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8669BA61A00CC1C00180992 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8669BAE1A00CC1C00180992 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8669BAF1A00CC1C00180992 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8669BC41A00CC1D00180992 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8669BC51A00CC1D00180992 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8669BC91A00CC1D00180992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8669BCA1A00CC1D00180992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8669BCC1A00CC1D00180992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JsBridgeDemo/JsBridgeDemo-Prefix.pch";
+				INFOPLIST_FILE = "JsBridgeDemo/JsBridgeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8669BCD1A00CC1D00180992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JsBridgeDemo/JsBridgeDemo-Prefix.pch";
+				INFOPLIST_FILE = "JsBridgeDemo/JsBridgeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D8669BCF1A00CC1D00180992 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JsBridgeDemo.app/JsBridgeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JsBridgeDemo/JsBridgeDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JsBridgeDemoTests/JsBridgeDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D8669BD01A00CC1D00180992 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JsBridgeDemo.app/JsBridgeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JsBridgeDemo/JsBridgeDemo-Prefix.pch";
+				INFOPLIST_FILE = "JsBridgeDemoTests/JsBridgeDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8669B941A00CC1C00180992 /* Build configuration list for PBXProject "JsBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8669BC91A00CC1D00180992 /* Debug */,
+				D8669BCA1A00CC1D00180992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8669BCB1A00CC1D00180992 /* Build configuration list for PBXNativeTarget "JsBridgeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8669BCC1A00CC1D00180992 /* Debug */,
+				D8669BCD1A00CC1D00180992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D8669BCE1A00CC1D00180992 /* Build configuration list for PBXNativeTarget "JsBridgeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8669BCF1A00CC1D00180992 /* Debug */,
+				D8669BD01A00CC1D00180992 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8669B911A00CC1C00180992 /* Project object */;
+}
